@@ -1,7 +1,5 @@
 # Shellebration
 
-Good work team! Keep it up!
-
 Dakarai: 
 -Display Simple Datat Types
 -Write Simple Math Statements
