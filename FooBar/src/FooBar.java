@@ -25,7 +25,7 @@ public class FooBar {
 	}
 	
 	//Bonus----
-	public static void fooBar(int userInput) {	//same function, just takes an int for the end number
+	public static void fooBar(int userInput) {		//same function, just takes an int for the end number
 		int i = 1;
 		while (i <= userInput) { 
 			if((i % 3 ==0) & (i % 5==0)) {
