@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // imports Scanner Object to grab user input
 
 public class FooBar {
 	public static void main(String[] args) {
@@ -19,14 +19,15 @@ public class FooBar {
 			x++;}
 		
 		System.out.println("Give me a number to FooBar: ");
-		Scanner userInput = new Scanner(System.in);
-		fooBar(userInput.nextInt());
+		// create new Scanner object called 'userInput' -> (System.in) is user input
+		Scanner userInput = new Scanner(System.in); 
+		fooBar(userInput.nextInt()); //userInput.nextInt() looks for a new int from the user
 	}
 	
-	
-	public static void fooBar(int x) {
+	//Bonus----
+	public static void fooBar(int userInput) {	//same function, just takes an int for the end number
 		int i = 1;
-		while (i <= x) {
+		while (i <= userInput) { 
 			if((i % 3 ==0) & (i % 5==0)) {
 				System.out.println("FooBar");
 			}
